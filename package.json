@@ -4,7 +4,8 @@
   "description": "simple role-based authorization for resources in Maki",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha",
+    "coverage": "NODE_ENV=test istanbul cover _mocha -- --recursive"
   },
   "keywords": [
     "maki",
