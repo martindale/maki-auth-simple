@@ -13,5 +13,12 @@
     "authorization"
   ],
   "author": "Eric Martindale",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.21",
+    "maki": "git://github.com/martindale/maki",
+    "mocha": "^2.3.3",
+    "restler": "^3.4.0"
+  }
 }
